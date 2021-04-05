@@ -1,9 +1,31 @@
 {
-  "name": "ggl-eslint",
+  "name": "eslint-config-ggleagues",
   "version": "0.0.1",
   "description": "GGLeagues ESLint Config",
   "main": "index.js",
   "repository": "https://github.com/GGLeagues/ggl-eslint",
   "author": "Alex Muench <alexm@ggleagues.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@angular-eslint/builder": "^2.0.0",
+    "@angular-eslint/eslint-plugin": "^2.0.0",
+    "@angular-eslint/eslint-plugin-template": "^2.0.0",
+    "@angular-eslint/schematics": "2.0.2",
+    "@angular-eslint/template-parser": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "eslint": "^7.23.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import-newlines": "^1.1.0",
+    "eslint-plugin-jasmine": "^4.1.2",
+    "eslint-plugin-jsdoc": "30.7.6",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "eslint-plugin-react": "^7.23.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.23.1",
+    "eslint-plugin-react": ">= 7.23.1",
+    "eslint-plugin-jasmine": ">= 4.1.2",
+    "import-newlines": ">= 1.1.0"
+  }
 }
