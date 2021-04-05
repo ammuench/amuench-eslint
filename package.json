@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-ggleagues",
+  "name": "@GGLeagues/eslint-config-ggleagues",
   "version": "1.0.0",
   "description": "GGLeagues ESLint Config",
   "main": "index.js",
