@@ -1,9 +1,9 @@
 {
-  "name": "@GGLeagues/eslint-config-ggleagues",
+  "name": "@ggleagues/eslint-config-ggleagues",
   "version": "1.0.1",
   "description": "GGLeagues ESLint Config",
   "main": "index.js",
-  "repository": "https://github.com/GGLeagues/ggl-eslint",
+  "repository": "git://github.com/GGLeagues/eslint-config-ggleagues.git",
   "author": "Alex Muench <alexm@ggleagues.com>",
   "license": "MIT",
   "dependencies": {
