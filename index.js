@@ -1,31 +1,11 @@
 module.exports = {
-    "extends": [
-        "plugin:@angular-eslint/ng-cli-compat",
-        "plugin:@angular-eslint/ng-cli-compat--formatting-add-on",
-        "plugin:@angular-eslint/template/process-inline-templates"
-    ],
+    "parser": "@typescript-eslint/parser",
     "plugins": [
+        "@typescript-eslint",
         "eslint-plugin-react",
-        "eslint-plugin-jasmine",
         "import-newlines"
     ],
     "rules": {
-        "@angular-eslint/component-selector": [
-            "error",
-            {
-                "type": "element",
-                "prefix": "app",
-                "style": "kebab-case"
-            }
-        ],
-        "@angular-eslint/directive-selector": [
-            "error",
-            {
-                "type": "attribute",
-                "prefix": "app",
-                "style": "camelCase"
-            }
-        ],
         "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/type-annotation-spacing": "off",
         "linebreak-style": ["error", "unix"],
@@ -124,8 +104,5 @@ module.exports = {
             }
         ],
         "comma-dangle": "off"
-    },
-    "env": {
-        "jasmine": true
     }
 }
