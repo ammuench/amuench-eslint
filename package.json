@@ -1,5 +1,5 @@
 {
-  "name": "amuench-eslint-config",
+  "name": "eslint-config-amuench",
   "version": "1.0.0",
   "description": "amuench ESLint config",
   "main": "index.js",
@@ -7,13 +7,16 @@
   "author": "Alex Muench <alexm@ggleagues.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-import-newlines": "^1.1.0",
-    "eslint-plugin-react": "^7.23.0",
+    "eslint": "^8.23.0",
+    "eslint-plugin-import-newlines": "^1.2.3",
+    "eslint-plugin-react": "^7.31.1",
     "typescript": "^4.2.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
-    "eslint": "^7.23.0"
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5",
+    "eslint": ">=8",
+    "eslint-plugin-import-newlines": ">=1.2",
+    "eslint-plugin-react": ">=7.31"
   }
 }
