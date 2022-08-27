@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-amuench",
   "version": "1.0.0",
-  "description": "amuench ESLint config",
+  "description": "amuench's ESLint config",
   "main": "index.js",
   "repository": "git@github.com:ammuench/amuench-eslint.git",
-  "author": "Alex Muench <alexm@ggleagues.com>",
+  "author": "Alex Muench <ammuench@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "eslint": "^8.23.0",

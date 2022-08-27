@@ -1,3 +1,3 @@
-# GGLeagues ESLint Plugin
+# AMuench's ESLint Plugin
 
-A collection of ESLint settings for GGLeagues projects
+A collection of ESLint settings for Amuench's projects
