@@ -328,6 +328,11 @@ eslint-plugin-import-newlines@^1.2.3:
   resolved "https://registry.yarnpkg.com/eslint-plugin-import-newlines/-/eslint-plugin-import-newlines-1.2.3.tgz#f678b242e64076365f48c31a271f1692b6437b7a"
   integrity sha512-UQBhG7dcIoBjaPjbcudqqcKYQVhYXnu9NBB7d8pBnDFZP4GTNPdszpeUbvSxcp/JyBE4TsUZt5u/UtEVioxh9g==
 
+eslint-plugin-prefer-arrow@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
+  integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
+
 eslint-plugin-react@^7.31.1:
   version "7.31.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.31.1.tgz#d29793ed27743f3ed8a473c347b1bf5a0a8fb9af"
