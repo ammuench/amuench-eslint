@@ -113,5 +113,6 @@ module.exports = {
         classPropertiesAllowed: false,
       },
     ],
+    "arrow-body-style": ["error", "as-needed"],
   },
 };
