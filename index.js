@@ -5,6 +5,7 @@ module.exports = {
     "eslint-plugin-react",
     "import-newlines",
     "prefer-arrow",
+    "simple-import-sort",
   ],
   rules: {
     "@typescript-eslint/naming-convention": "off",
@@ -114,5 +115,24 @@ module.exports = {
       },
     ],
     "arrow-body-style": ["error", "as-needed"],
+    "simple-import-sort/imports": [
+      "error",
+      {
+        groups: [
+          // Packages `react` related packages come first.
+          ["^react", "^electron", "^next", "^@angular", "^@?\\w"],
+          // Internal packages.
+          ["^(@|components)(/.*|$)"],
+          // Side effect imports.
+          ["^\\u0000"],
+          // Parent imports. Put `..` last.
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          // Other relative imports. Put same-folder imports and `.` last.
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+          // Style imports.
+          ["^.+\\.?(css)$"],
+        ],
+      },
+    ],
   },
 };
